@@ -1,9 +1,10 @@
 import { CONTACT } from "../constants"
 import { motion } from "framer-motion"
+import resume from "../assets/resume.pdf";
 
 const Contacts = () => {
   return (
-    <div className="border-b border-neutral-900 pb-20">
+    <div id="contact" className="border-b border-neutral-900 pb-20">
         <motion.h1 
         whileInView={{opacity:1, y:0}}
         initial={{opacity:0, y:-100}}
@@ -19,13 +20,27 @@ const Contacts = () => {
             whileInView={{opacity:1, x:0}}
             initial={{opacity:0, x:100}}
             transition={{duration:1}}
-            className="my-4">{CONTACT.phoneNo}</motion.p>
-            <a href="/" className="border-b">
+            className="my-4">
+              {CONTACT.phoneNo}
+            </motion.p>
+            <motion.p
+            whileInView={{opacity:1, x:0}}
+            initial={{opacity:0, x:-100}}
+            transition={{duration:1}}>
                 {CONTACT.email}
-            </a>
+            </motion.p>
+            <motion.button
+            whileInView={{opacity:1, x:0}}
+            initial={{opacity:0, x:100}}
+            transition={{duration:1}}
+            className="my-4 border rounded p-2 bg-neutral-900 text-white">
+              <a href={resume} className="mt-4" download="resume.pdf">
+                Download Resume
+              </a>
+            </motion.button>
         </div>
     </div>
   )
 }
 
-export default Contacts
+export default Contacts;

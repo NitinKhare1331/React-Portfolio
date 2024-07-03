@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import { Projects } from './components/Projects'
 import Technologies from './components/Technologies'
 import Contacts from './components/Contacts'
+import "./App.css"
 
 function App() {
 

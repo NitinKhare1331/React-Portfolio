@@ -11,7 +11,7 @@ export const Projects = () => {
         transition={{duration:1}}
         className='my-20 text-center text-4xl'>Projects
         </motion.h1>
-        <div>
+        <div id='projects'>
             {PROJECTS.map((project, index) => (
                 <div key={index} className='mb-4 flex flex-wrap lg:justify-center'>
                     <motion.div 
@@ -23,7 +23,7 @@ export const Projects = () => {
                         width={150}
                         height={150}
                         alt={project.title} 
-                        className='mb-6 rounded'
+                        className='mb-6 rounded border border-neutral-50 hover:scale-125 transition-all duration-500'
                         />
                     </motion.div>
                     <motion.div 
