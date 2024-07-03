@@ -1,4 +1,4 @@
-import { RiReactjsLine, RiHtml5Line, RiCss3Line, RiJavascriptLine, RiNodejsLine, RiGitBranchFill} from "react-icons/ri"
+import { RiReactjsLine, RiHtml5Line, RiCss3Line, RiJavascriptLine, RiGitBranchFill, RiTailwindCssLine} from "react-icons/ri"
 import { SiMongodb, SiMysql } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -46,11 +46,18 @@ const Technologies = () => {
                 <RiCss3Line className="text-7xl text-[#2D53E5]"/>
             </motion.div>
             <motion.div 
-            variants={iconVariants(5)}
+            variants={iconVariants(4)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <RiJavascriptLine className="text-7xl text-[#F7E025]"/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(3)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <RiTailwindCssLine className="text-7xl text-[#1FB9BC]"/>
             </motion.div>
             <motion.div 
             variants={iconVariants(2)}
@@ -60,7 +67,7 @@ const Technologies = () => {
                 <RiReactjsLine className="text-7xl text-[#08E1FF]"/>
             </motion.div>
             <motion.div 
-            variants={iconVariants(6)}
+            variants={iconVariants(3)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
