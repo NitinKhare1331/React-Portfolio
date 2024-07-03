@@ -19,28 +19,28 @@ export const PROJECTS = [
     image: project1,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
   },
   {
-    title: "E-Commerce Website",
+    title: "Calculator",
     image: project2,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML ", "CSS ", "React ", "Node.js ", "MongoDB "],
+      "A fully functional calculator with features like all clear, delete current as well as all arithmatic operators.",
+    technologies: ["HTML ", "CSS ", "JavaScript"],
   },
   {
-    title: "Task Management App",
+    title: "Tik Tac Toe Game",
     image: project3,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A Tic Tac Toe game which has features like reset the game when someone wins and declare the winner when someone wins.",
+    technologies: ["HTML", "CSS", "React"],
   },
   {
-    title: "Blogging Platform",
+    title: "Password Generator",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A random password generator with features like length adjustment, inclusion of capital letter, small letters ,special characters and numbers.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
