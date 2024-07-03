@@ -46,6 +46,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "C 240 Awas Vikas Colony Hardoi (UP) 241001",
-  phoneNo: "+91-7355079179",
+  phoneNo: "+91-73550791",
   email: "kharenitin777@gmail.com",
 };
