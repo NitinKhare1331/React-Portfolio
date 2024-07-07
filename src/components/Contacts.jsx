@@ -1,6 +1,6 @@
 import { CONTACT } from "../constants"
 import { motion } from "framer-motion"
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Nitin-Khare-13-03-2001-resume.pdf";
 
 const Contacts = () => {
   return (
@@ -34,7 +34,7 @@ const Contacts = () => {
             initial={{opacity:0, x:100}}
             transition={{duration:1}}
             className="my-4 border rounded p-2 bg-neutral-900 text-white">
-              <a href={resume} className="mt-4" download="resume.pdf">
+              <a href={resume} className="mt-4" download="Nitin-Khare-13-03-2001-resume.pdf">
                 Download Resume
               </a>
             </motion.button>
