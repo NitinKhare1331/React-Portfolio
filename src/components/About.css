@@ -1,0 +1,18 @@
+#about_me, #project, #contact, #tech{
+    position: relative;
+}
+
+:is(#about_me, #project, #contact, #tech)::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: white;
+    transition: width 0.5s;
+}
+
+:is(#about_me:hover, #project:hover, #contact:hover, #tech:hover)::after {
+    width: 100%;
+}
