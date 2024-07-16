@@ -22,17 +22,17 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
   },
   {
-    title: "Calculator",
+    title: "Todo App",
     image: project2,
     description:
-      "A fully functional calculator with features like all clear, delete current as well as all arithmatic operators.",
-    technologies: ["HTML ", "CSS ", "JavaScript"],
+      "Developed a dynamic Todo App using React JS for a responsive UI and Tailwind CSS for modern, mobile-first designs. Focused on component-based architecture, effective state management, and cross-device compatibility to enhance user experience.",
+    technologies: ["HTML ", "CSS ", "React", "Tailwind CSS"],
   },
   {
-    title: "Tik Tac Toe Game",
+    title: "Poekedex App",
     image: project3,
     description:
-      "A Tic Tac Toe game which has features like reset the game when someone wins and declare the winner when someone wins.",
+      "Developed a Pokedex App using React JS for an interactive UI and CSS for styling. Implemented efficient state management and used Axios to fetch data from the free Pokémon API. Added Prev and Next buttons for pagination and used React Router for smooth navigation, enabling a seamless SPA experience.",
     technologies: ["HTML", "CSS", "React"],
   },
   {

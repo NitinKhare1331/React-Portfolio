@@ -1,8 +1,8 @@
-#about_me, #project, #contact, #tech{
+#about_me, #project, #cont, #tech{
     position: relative;
 }
 
-:is(#about_me, #project, #contact, #tech)::after {
+:is(#about_me, #project, #cont, #tech)::after {
     content: '';
     position: absolute;
     height: 2px;
@@ -13,6 +13,6 @@
     transition: width 0.5s;
 }
 
-:is(#about_me:hover, #project:hover, #contact:hover, #tech:hover)::after {
+:is(#about_me:hover, #project:hover, #cont:hover, #tech:hover)::after {
     width: 100%;
 }
