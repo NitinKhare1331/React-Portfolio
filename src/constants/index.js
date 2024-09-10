@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React.js, as well as back-end technologies like Node.js, MySQL, MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -36,11 +36,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React"],
   },
   {
-    title: "Password Generator",
+    title: "CoinGecko Crypto Tracker",
     image: project4,
     description:
-      "A random password generator with features like length adjustment, inclusion of capital letter, small letters ,special characters and numbers.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "The CoinGecko Crypto Tracker app displays a table of cryptocurrencies fetched from the free CoinGecko API. Clicking on a coin navigates to a details page showing the coin's description and various charts. The app implements routing, lazy loading for optimized performance, error boundaries for handling failures, and state management using Zustand. Debouncing is used to handle search input efficiently.",
+    technologies: ["HTML", "Tailwind CSS", "React"],
   },
 ];
 
