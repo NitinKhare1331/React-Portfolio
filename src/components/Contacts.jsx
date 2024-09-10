@@ -1,6 +1,6 @@
 import { CONTACT } from "../constants"
 import { motion } from "framer-motion"
-import resume from "../assets/Nitin-Khare-13-03-2001-resume.pdf";
+import resume from "../assets/projects/Nitin-Khare-13-03-2001-resume.pdf";
 
 const Contacts = () => {
   return (
