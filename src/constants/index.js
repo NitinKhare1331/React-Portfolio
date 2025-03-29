@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React.js, as well as back-end technologies like Node.js, MySQL, MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -42,6 +43,13 @@ export const PROJECTS = [
       "The CoinGecko Crypto Tracker app displays a table of cryptocurrencies fetched from the free CoinGecko API. Clicking on a coin navigates to a details page showing the coin's description and various charts. The app implements routing, lazy loading for optimized performance, error boundaries for handling failures, and state management using Zustand. Debouncing is used to handle search input efficiently.",
     technologies: ["HTML", "Tailwind CSS", "React"],
   },
+  {
+    title: "Chat App",
+    image: project5,
+    description:
+      "Implemented Socket.io for real-time chat updates and notifications. Integrated Amazon S3 for secure and scalable image uploads. Added features like user authentication, channel creation, direct messaging, and group chats.  Ensured  seamless  performance  with  efficient  backend  and  real-time  communication  mechanisms.",
+    technologies: ["MERN"],
+  }
 ];
 
 export const CONTACT = {
@@ -49,3 +57,8 @@ export const CONTACT = {
   phoneNo: "+91-7355079179",
   email: "kharenitin777@gmail.com",
 };
+
+
+
+
+"Implemented Socket.io for real-time chat updates and notifications. Integrated Amazon S3 for secure and scalable image uploads. Added features like user authentication, channel creation, direct messaging, and group chats.  Ensured  seamless  performance  with  efficient  backend  and  real-time  communication  mechanisms."
