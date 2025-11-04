@@ -5,19 +5,20 @@ const experiences = [
     title: "Web Developer",
     company: "Naag Foundation Trust",
     period: "Nov 2024 – Present",
-    achievements: [
-      "Developed and maintained scalable, responsive web applications using React.js, Tailwind CSS, and JavaScript.",
-      "Collaborated with backend teams integrating Django REST APIs to deliver dynamic content and seamless user experiences.",
-      "Implemented new modules (event management, donations, and contact systems), improving engagement metrics and accessibility.",
-    ],
-    stack: ["React.js", "Tailwind CSS", "Django", "REST APIs"],
+achievements: [
+  "Designed and developed interactive donor transparency dashboards using React.js and Tailwind CSS, ensuring accurate fund utilization tracking for contributors.",
+  "Collaborated with backend teams to integrate Express.js REST APIs for real-time data visualization and donor activity updates.",
+  "Implemented new dashboard features and enhancements, improving usability, performance, and transparency across multiple social initiatives.",
+  "Optimized existing UI components, reduced bugs, and improved page responsiveness to ensure a seamless experience across devices.",
+],
+    stack: ["React.js", "Tailwind CSS", "Express Js", "REST APIs"],
   },
   {
     title: "Web Developer Trainee",
     company: "Naag Foundation Trust",
     period: "Nov 2023 – Oct 2024",
     achievements: [
-      "Built and optimized MERN-based applications (MongoDB, Express.js, React.js, Node.js) for NGO platforms.",
+      "Built and optimized MERN-based applications (MongoDB, Express.js, React.js, Node.js) for NGO platform.",
       "Integrated RESTful APIs, ensuring smooth data flow and consistent UI performance across devices.",
       "Collaborated on live projects improving load times, UI consistency, and data-driven content rendering.",
     ],
